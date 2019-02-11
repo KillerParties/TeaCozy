@@ -1,6 +1,9 @@
 /* universal styles */
 body {
   background-color: black;
+  font-family: "helvetica"
+  font-size: 20px
+  color: seashell;
 }
 
 copy {
@@ -16,7 +19,6 @@ copy {
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
-  font-family: "helvetica";
   font-size: 25px;
   font-weight: bold;
   color: white;
@@ -80,7 +82,7 @@ h2 h3 h4 {
   vertical-align: middle;
   background-color: black;
   margin-top: 300px;
-  margin-bottom: 290px;
+  margin-bottom: 300px;
 }
 
 /* Tea of the Month */
@@ -106,6 +108,7 @@ h2 h3 h4 {
   height: 526px;
   width: 1000px;
   margin: auto;
+  padding-bottom: 70px;
   border: 1px solid red;
 }
 
@@ -129,28 +132,30 @@ h2 h3 h4 {
 
 /* locations */
 
-.location-presentation {
+.location-container {
   display: flex;
-  height: 550px;
-  justify-content: center;
-}
-
-.location-presentation .image-content {
   height: 500px;
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 50px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
 }
 
-.location-box {
+.location-flex {
   display: flex;
-
   justify-content: center;
-  width: 300px;
-  background-color: black;
-  color: white;
-  opacity: 1;
+  flex-wrap: wrap;
+}
+
+.location-individual {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: red;
+  justify-content: center;
+  opacity: 1.0;
+  padding: 5px;
+  margin: 5px 5px;
+  flex-basis: 50px;
+}
 
 
 

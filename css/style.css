@@ -1,13 +1,9 @@
 /* universal styles */
 body {
   background-color: black;
-  font-family: "helvetica"
+  font-family: "helvetica";
   font-size: 20px;
   color: seashell;
-  text-align: center;
-}
-
-copy {
   text-align: center;
 }
 
@@ -22,13 +18,12 @@ h2 h3 h4 {
   display: flex;
   position: fixed;
   align-items: center;
-  z-index: 2;
+  z-index: 1;
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
   font-size: 25px;
   font-weight: bold;
-  color: white;
   background-color: black;
 }
 
@@ -48,7 +43,6 @@ h2 h3 h4 {
 }
 
 nav span {
-  color: white;
   text-decoration: underline;
 }
 
@@ -72,7 +66,7 @@ nav span {
 
 /* our mission */
 
-.mission {
+#mission {
   text-align: center;
   height: 700px;
   width: 100%;
@@ -83,12 +77,12 @@ nav span {
 .mission-copy {
   vertical-align: middle;
   background-color: black;
-  margin-top: 300px;
-  margin-bottom: 300px;
+  margin-top: 250px;
+  margin-bottom: 250px;
 }
 
 /* Tea of the Month */
-.tea-month {
+#tea-month {
   display: flex;
   flex-wrap: wrap;
   align-content: center
@@ -139,8 +133,8 @@ nav span {
   height: 500px;
   padding-top: 15px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  margin: auto;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
 }
 
@@ -163,7 +157,14 @@ nav span {
   flex-basis: 200px;
 }
 
+/*contact and footer*/
+
 #contact {
   height: 200px;
   text-align: center;
   }
+
+#footer {
+  text-align: left;
+  padding-left: 20px;
+}
